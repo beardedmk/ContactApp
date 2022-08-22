@@ -1,7 +1,6 @@
-const { json } = require("express");
 const express = require("express");
 const mongoose = require("mongoose");
-const router = require("./Routers/UserRoutes");
+const router = require("./Routers/Routes");
 
 const app = express();
 
